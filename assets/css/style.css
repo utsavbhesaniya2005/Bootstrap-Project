@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color: #5751E1;
+    --main-color-rgb: 87, 81, 225;
+    --heading-font : #161439;
+    --heading-font-rgb : 22, 20, 57;
+    --btn-bg : #FFC224;
+    --btn-bg : 255, 194, 36;
+    --normal-font : #6D6C80;
+    --normal-font-rgb : 109, 108, 128;
+    --white : #ffffff;
+    --white-rgb : 255, 255, 255;
+    --normal-ff : 'Inter', sans-serif;
+    --heading-ff : 'Poppins', sans-serif;
+    --fw : 600; 
+    --gw : 14px;
+}
+body{
+    font-weight: var(--fw);  
+} 
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+ul,ol{
+    padding: 0;
+    list-style: none;
+}
