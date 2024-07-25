@@ -13,6 +13,8 @@
 
     <!-- Favicon Link -->
     
+    <!-- Bootstrap -->
+     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
 
     <!-- Css Link -->
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -21,38 +23,151 @@
     <!-- Header Start -->
     <header>
         <div class="top-header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-6">
-                        <div class="header-left">
-                            <p>
-                                <i class="fa-solid fa-location-dot"></i>
-                                <span>589 5th Ave, NY 10024, USA</span>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="header-right">
-                            <ul class="justify-end items-center">
-                                <li class="select">
-                                    <a href="index.html">
-                                        
-                                    </a>
-                                </li>
-                                <li class="select">
-                                    <a href="index.html">
-                                        
-                                    </a>    
-                                </li>
-                                <li>
-                                    <a href="index.html">
-                                        
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+            <div class="row justify-content-between align-items-center">
+                <div class="col-6">
+                    <div class="header-left column-gap-4 d-flex">
+                        <a class="address" href="#">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>589 5th Ave, NY 10024, USA</span>
+                        </a>
+                        <a class="email" href="email:info@skillgrodemo.com">
+                            <i class="fa-regular fa-envelope"></i>
+                            <span>info@skillgrodemo.com</span>
+                        </a>
                     </div>
                 </div>
+                <div class="col-6">
+                    <div class="header-right d-flex justify-content-end align-items-center">
+                        <ul class="d-flex align-items-center mb-0 column-gap-4">
+                            <li class="contact">
+                                <a href="tel: +123 599 8989">
+                                    <i class="fa-solid fa-phone-volume"></i>
+                                    <span>Call us: +123 599 8989</span>
+                                </a>
+                            </li>
+                            <li class="social d-flex align-items-center">
+                                <a href="index.html">
+                                    <span>Follow Us On :</span>
+                                    <ul class="d-flex align-items-center column-gap-3">
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-brands fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-brands fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-brands fa-whatsapp"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-brands fa-linkedin-in"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-brands fa-youtube"></i>
+                                            </a>    
+                                        </li>
+                                    </ul>
+                                </a>    
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-navigation">
+            <div class="row">
+                <div class="col-2">
+                    <div class="logo">
+                        <a href="#">
+                            <img class="img-fluid" src="./assets/images/logo/logo.png" alt="Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link" href="#">
+                                            Home
+                                        </a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            Courses
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            Pages
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            Shop
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            Blog
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-5"></div>
             </div>
         </div>
     </header>
@@ -61,5 +176,8 @@
     <main>
         
     </main>
+
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

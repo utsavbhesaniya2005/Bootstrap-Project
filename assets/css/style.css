@@ -15,11 +15,14 @@
     --white-rgb : 255, 255, 255;
     --normal-ff : 'Inter', sans-serif;
     --heading-ff : 'Poppins', sans-serif;
-    --fw : 600; 
-    --gw : 14px;
+    --fw : 500; 
+    --fs : 14px;
 }
 body{
-    font-weight: var(--fw);  
+    color: var(--normal-font);
+    font-size: var(--fs); 
+    font-weight: var(--fw);
+    font-family: var(--normal-ff);
 } 
 a{
     cursor: pointer;
@@ -28,4 +31,28 @@ a{
 ul,ol{
     padding: 0;
     list-style: none;
+}
+
+/* Header Left */
+.top-header{
+    padding: 12px 100px;
+    background-color: #161439;
+}
+.header-left a, .header-right ul li a{
+    color: var(--white);
+}
+.header-left a i, .header-right .contact a i{
+    padding-right: 5px;
+    opacity: 0.6;
+}
+.header-right .social a span{
+    opacity: 0.6;
+}
+.main-navigation{
+    padding: 25px 100px;
+}
+.logo a{
+    display: block;
+    height: 250px;
+    width: 250px;
 }
