@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SkillGro</title>
+        
+        <!-- Favicon Link -->
+        <link rel="shortcut icon" href="./assets/images/logo/favicon.png" type="image/x-icon">
 
-    <!-- Font Awesome Link -->
-    <link rel="stylesheet" href="./assets/css/all.min.css">
+        <!-- Font Awesome Link -->
+        <link rel="stylesheet" href="./assets/css/all.min.css">
 
-    <!-- Font Link -->
-    <link rel="stylesheet" href="./assets/css/font.css">
+        <!-- Font Link -->
+        <link rel="stylesheet" href="./assets/css/font.css">
+        
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
 
-    <!-- Favicon Link -->
-    
-    <!-- Bootstrap -->
-     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-
-    <!-- Css Link -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
+        <!-- Css Link -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+        
+    </head>
 <body>
     <!-- Header Start -->
     <header>
@@ -107,58 +109,74 @@
                                         </a>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        <a class="nav-link dropdown-toggle px-3" href="#" role="button" data-bs-toggle="dropdown"
                                             aria-expanded="false">
-                                            Courses
+                                            <span>Courses</span>
+                                            <i class="fa-solid fa-angle-down  align-middle"></i>
                                         </a>
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
                                             <li>
-                                                <hr class="dropdown-divider">
+                                                <a class="dropdown-item" href="#">Action</a>
                                             </li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Something else here
+
+                                                </a>
+                                            </li>
                                         </ul>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        <a class="nav-link dropdown-toggle px-3" href="#" role="button" data-bs-toggle="dropdown"
                                             aria-expanded="false">
-                                            Pages
+                                            <span>Pages</span>
+                                            <i class="fa-solid fa-angle-down  align-middle"></i>
                                         </a>
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
                                             <li>
-                                                <hr class="dropdown-divider">
+                                                <a class="dropdown-item" href="#">Action</a>
                                             </li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Something else here</a>
+                                            </li>
                                         </ul>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        <a class="nav-link dropdown-toggle px-3" href="#" role="button" data-bs-toggle="dropdown"
                                             aria-expanded="false">
-                                            Shop
+                                            <span>Shop</span>
+                                            <i class="fa-solid fa-angle-down align-middle">
+                                            </i>
                                         </a>
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
                                             <li>
-                                                <hr class="dropdown-divider">
+                                                <a class="dropdown-item" href="#">Action
+                                                </a>
                                             </li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Another action
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Something else here
+                                                </a>
+                                            </li>
                                         </ul>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        <a class="nav-link dropdown-toggle px-3" href="#" role="button" data-bs-toggle="dropdown"
                                             aria-expanded="false">
-                                            Blog
+                                            <span>Blog</span>
+                                            <i class="fa-solid fa-angle-down align-middle"></i>
                                         </a>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item" href="#">Action</a></li>
                                             <li><a class="dropdown-item" href="#">Another action</a></li>
-                                            <li>
-                                                <hr class="dropdown-divider">
-                                            </li>
                                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                                         </ul>
                                     </li>
@@ -167,7 +185,21 @@
                         </div>
                     </nav>
                 </div>
-                <div class="col-5"></div>
+                <div class="col-5">
+                    <div class="search">
+                        <div class="input-group mb-3 rounded-pill">
+                            <a href="#" class="input-group-text rounded-start-pill">
+                                <i class="fa-solid fa-border-all align-middle"></i>
+                                <span>Categories</span>
+                                <i class="fa-solid fa-angle-down align-middle"></i>
+                            </a>
+                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                            <a href="#" class="input-group-text rounded-end-pill">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                          </div>                          
+                    </div>
+                </div>
             </div>
         </div>
     </header>
