@@ -8,7 +8,7 @@
     --heading-font : #161439;
     --heading-font-rgb : 22, 20, 57;
     --btn-bg : #FFC224;
-    --btn-bg : 255, 194, 36;
+    --btn-bg-rgb : 255, 194, 36;
     --normal-font : #6D6C80;
     --normal-font-rgb : 109, 108, 128;
     --white : #ffffff;
@@ -31,6 +31,14 @@ a{
 ul,ol{
     padding: 0;
     list-style: none;
+}
+.btn-1{
+    display: inline-block;
+    background-color: var(--btn-bg);
+    padding: 10px 35px;
+    border-radius: 50px;
+    color: var(--heading-font);
+    font-weight: 700;
 }
 
 /* Header Left */
@@ -58,4 +66,36 @@ ul,ol{
 }
 .dropdown-toggle::after{
     border: 0;
+}
+.input-group-text .fa-angle-down::before{
+    vertical-align: sub;
+}
+.input-group>.form-control{
+    flex: none;
+    width: 45%;
+}
+.input-group-text1{
+    background-color: var(--white);
+    position: absolute;
+    right: 55px;
+    top: 5px;
+    height: 40px;
+    width: 40px;
+    background-color: var(--main-color);
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+.btn-like, .btn-cart{
+    padding-right: 15px;
+}
+.btn-like a, .btn-cart a{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.input-group{
+    width: 60%;
+    height: 50px;
 }

@@ -93,7 +93,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-5">
+                <div class="col-4">
                     <nav class="navbar navbar-expand-lg">
                         <div class="container-fluid">
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -104,7 +104,7 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link" href="#">
+                                        <a class="nav-link px-3" href="#">
                                             Home
                                         </a>
                                     </li>
@@ -185,19 +185,40 @@
                         </div>
                     </nav>
                 </div>
-                <div class="col-5">
-                    <div class="search">
-                        <div class="input-group mb-3 rounded-pill">
-                            <a href="#" class="input-group-text rounded-start-pill">
-                                <i class="fa-solid fa-border-all align-middle"></i>
+                <div class="col-6">
+                    <div class="search d-flex align-items-center ps-5">
+                        <div class="input-group rounded-pill">
+                            <a href="#" class="input-group-text rounded-start-pill d-flex align-items-center column-gap-2" style="background-color: white;">
+                                <i class="fa-solid fa-border-all"></i>
                                 <span>Categories</span>
-                                <i class="fa-solid fa-angle-down align-middle"></i>
+                                <i class="fa-solid fa-angle-down" style="font-size: 12px;"></i>
                             </a>
-                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-                            <a href="#" class="input-group-text rounded-end-pill">
-                                <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" class="form-control rounded-end-pill">
+                            <a href="#" class="input-group-text1 rounded-circle">
+                                <i class="fa-solid fa-magnifying-glass text-white"></i>
                             </a>
-                          </div>                          
+                        </div>  
+                        <div class="btn-like">
+                            <a type="button" class="btn position-relative rounded-circle p-0" href="#" style="border: 1px solid #7F7E97">
+                                <i class="fa-regular fa-heart" style="color: #7F7E97; font-size: 20px;"></i>
+                                <span class="position-absolute top-0 start-100 translate-middle badge rounded-circle p-0" style="background-color: #FFC224; height: 22px; width: 22px; line-height: 22px;">
+                                    0
+                                    <span class="visually-hidden">unread messages</span>
+                                </span>
+                            </a>
+                        </div>      
+                        <div class="btn-cart pe-4">
+                            <a type="button" class="btn position-relative rounded-circle p-0" href="#" style="border: 1px solid #7F7E97">
+                                <i class="fa-solid fa-basket-shopping" style="color: #7F7E97; font-size: 20px;"></i>
+                                <span class="position-absolute top-0 start-100 translate-middle badge rounded-circle p-0" style="background-color: #FFC224; height: 22px; width: 22px; line-height: 22px;">
+                                    0
+                                    <span class="visually-hidden">unread messages</span>
+                                </span>
+                            </a>
+                        </div>   
+                        <a class="btn-1" href="#">
+                            <span>Log in</span>
+                        </a>               
                     </div>
                 </div>
             </div>
