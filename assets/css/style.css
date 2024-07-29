@@ -15,7 +15,7 @@
     --white-rgb : 255, 255, 255;
     --normal-ff : 'Inter', sans-serif;
     --heading-ff : 'Poppins', sans-serif;
-    --fw : 500; 
+    --fw : 600; 
     --fs : 14px;
 }
 body{
@@ -32,13 +32,40 @@ ul,ol{
     padding: 0;
     list-style: none;
 }
+hr{
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    color: var(--heading-font);
+    font-family: var(--heading-ff);
+}
+p{
+    color: var(--normal-font);
+    font-weight: 400;
+}
+.my-100{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.mt-100{
+    margin-top: 100px;
+}
+.mb-100{
+    margin-bottom: 100px;
+}
 .btn-1{
     display: inline-block;
     background-color: var(--btn-bg);
     padding: 10px 35px;
     border-radius: 50px;
     color: var(--heading-font);
-    font-weight: 700;
+    font-weight: 600;
+    font-family: var(--heading-ff);
+}
+.bg-fit{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Header Left */
@@ -61,11 +88,17 @@ ul,ol{
 }
 .logo a{
     display: block;
-    height: 200px;
     width: 200px;
 }
 .dropdown-toggle::after{
     border: 0;
+}
+.dropdown-menu{
+    padding: 0;
+}
+.dropdown-item{
+    padding: 10px 25px;
+    width: 270px;
 }
 .input-group-text .fa-angle-down::before{
     vertical-align: sub;
@@ -98,4 +131,63 @@ ul,ol{
 .input-group{
     width: 60%;
     height: 50px;
+}
+
+/* Banner */
+.banner{
+    background-image: url(../images/banner/banner-bg.png);
+    height: 80vh;
+    padding: 100px 0;
+}
+.banner::before{
+    content: '';
+    position: absolute;
+    background-image: url(../images/banner/banner_shape.png);
+    height: 230px;
+    width: 100%;
+    background-repeat: no-repeat;
+    left: 0;
+    top: 0;
+}
+.banner-text h2{
+    font-size: 42px;
+    line-height: 60px;
+}
+.learning{
+    background-image: url(../images/banner/banner-text-shape.png);
+    color: var(--white);
+    padding: 8px;
+    font-weight: bold;
+}
+.banner-text p{
+    width: 90%;
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+.banner-text a{
+    background-color: var(--main-color);
+    box-shadow: 5px 5px 1px #050071;
+}
+.banner-text a span{
+    margin-right: 5px;
+}
+.banner-img img{
+    height: 530px;
+    width: 100%;
+}
+
+/* Category */
+.title a{
+    background-color: #EFEEFE;
+    color: var(--main-color);
+}
+.title h2{
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}   
+.title p{
+    font-size: 16px;
+    line-height: 28px;
 }
