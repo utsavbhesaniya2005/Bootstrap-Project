@@ -1,4 +1,5 @@
 *{
+
     margin: 0;
     box-sizing: border-box;
 }
@@ -190,4 +191,65 @@ p{
 .title p{
     font-size: 16px;
     line-height: 28px;
+}
+
+/* Category Slider */
+.item-category .item-img a img{
+    height: 150px;
+    width: 150px;
+}
+.item-category .item-desc h4{
+    font-size: 18px;
+    font-weight: 500;
+}
+.item-category .item-desc p{
+    color: var(--normal-font);
+    font-size: 14px;
+    font-weight: 400;
+}
+.swiper-button-prev:after, .swiper-button-next:after{
+    display: none;
+}
+.swiper-button-prev a, .swiper-button-next a{
+    display: block;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: var(--btn-bg);
+    border-radius: 50%;
+    border: 1px solid var(--heading-font);
+    position: absolute;
+    left: -10px;
+}
+.swiper-button-next a{
+    left: -15px;
+}
+.swiper-button-prev a i{
+    color: var(--heading-font);
+}
+
+/* Animate logo */
+.animate-logo{
+    padding: 40px 0;
+    background-color: #06042E;
+}
+.animate-logo .container{
+    max-width: 1920px !important; 
+}
+
+/* Abouts Us */
+.about-image img{
+    position: relative;
+}
+.about-image img::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(../images/aboutus/about-student.png);
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100%;
+    
 }
