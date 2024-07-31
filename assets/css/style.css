@@ -304,7 +304,23 @@ p{
 .t-courses{
     background-image: url(../images/top-courses/top-courses-bg.png);
     height: 100vh;
-    padding: 100px 0;
+    padding: 50px 0;
+    
+}
+.t-courses .container{
+    position: relative;
+}
+.t-courses .container .btn-left a, .t-courses .container .btn-right a{
+    background-color: var(--main-color);
+    font-size: 22px;
+}
+.btn-left{
+    top: 70%;
+    left: -4%;
+}
+.btn-right{
+    top: 70%;
+    right: -3%;
 }
 .nav{
     position: relative;
@@ -345,4 +361,98 @@ p{
 }
 .nav-tabs .nav-link.active::after{
     display: block;
+}
+.card-body{
+    padding: 15px 5px;
+}
+.card-body .rating{
+    font-size: 13px;
+    font-family: var(--normal-ff);
+    color: var(--heading-font);
+}
+.card-body .rating > span{
+    background-color: #efeff2;
+    padding: 5px 10px;
+}
+.card-body .rating .reviews i{
+    color: var(--btn-bg);
+    font-size: 13px;
+}
+.card-body .rating .reviews span{
+    color: #7F7E97;
+    font-size: 14px;
+    font-weight: 400;
+}
+.card-body .heading{
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0;
+}
+.card-body p{
+    color: var(--heading-font);
+    font-size: 15px;
+}
+.card-body p span{
+    color: #6D6C80;
+}
+.enroll a{
+    padding: 10px 25px;
+    box-shadow: 5px 5px 1px #3d3d3d;
+    border: 1px solid var(--heading-font);
+}
+.enroll > span{
+    color: var(--main-color);
+    font-weight: 700;
+    font-family: var(--heading-ff);
+    font-size: 20px;
+}
+/* News Letter */
+.newsletter{
+    height: 48vh;
+    background-color: var(--main-color);
+    padding: 50px 0;
+    overflow: hidden;
+    position: relative;
+}
+.main-img{
+    height: 330px;
+}
+.shape-1{
+    height: 180px;
+    left: 4%;
+    bottom: 0;
+}
+.shape-2{
+    left: 27%;
+    top: 30%;
+}
+.shape-3{
+    height: 380px;
+    left: 65%;
+    top: 0;
+}
+.newsletter-desc h1{
+    font-size: 36px;
+    width: 70%;
+    text-transform: capitalize;
+    color: var(--white);
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+.newsletter-desc form input{
+    border: 1px solid #433EC2;
+    outline: none;
+    min-width: 450px;
+    height: 60px;
+    background-color: #4A44D1;
+    padding: 20px;
+}
+.newsletter-desc .newsletter-mail form input::placeholder{
+    font-size: 16px;
+    line-height: 20px;
+}
+.newsletter-desc .newsletter-mail a{
+    padding: 18px 45px;
+    box-shadow: 5px 5px 1px #3d3d3d;
+    border: 1px solid var(--heading-font);
 }
