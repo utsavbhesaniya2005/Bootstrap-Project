@@ -374,11 +374,11 @@ p{
     background-color: #efeff2;
     padding: 5px 10px;
 }
-.card-body .rating .reviews i{
+.reviews i{
     color: var(--btn-bg);
     font-size: 13px;
 }
-.card-body .rating .reviews span{
+.reviews span{
     color: #7F7E97;
     font-size: 14px;
     font-weight: 400;
@@ -455,4 +455,88 @@ p{
     padding: 18px 45px;
     box-shadow: 5px 5px 1px #3d3d3d;
     border: 1px solid var(--heading-font);
+}
+
+/* Skilled Expert */
+.s-instructor p{
+    width: 95%;
+}
+.instructor-img img{
+    background: rgb(247,246,249);
+    border-radius: 50%;
+}
+.instructor-text p{
+    color: var(--main-color);
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.instructor-text ul li a{
+    display: block;
+    height: 36px;
+    width: 36px;
+    line-height: 36px;
+    text-align: center;
+    border: 1px solid #9292B4;
+    border-radius: 50%;
+    color: #7F7E97;
+    font-size: 20px;
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.25), 3px 3px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+/* Counter */
+.first-count h2, .first-count span{
+    color: var(--white);
+}
+.counter h2, .counter span{
+    font-size: 52px;
+    font-weight: 600;
+    margin: 0;
+}
+.first-count span{
+    font-weight: 400;
+}
+.first-count::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100px;
+    width: 0.5px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, 0) 0%);
+}
+
+/* Faqs */
+.faqs-desc .title h4{
+    font-weight: 500;
+    font-family: var(--normal-ff);
+}
+.faqs-desc .title h2{
+    width: 80%;
+}
+.accordion-item, .accordion-flush>.accordion-item:last-child{
+    border-bottom: 1px solid rgba(178, 187, 204, 1);
+}
+.accordion-button:not(.collapsed){
+    color: rgba(87, 81, 225, 1);
+    background-color: var(--white);
+    border-bottom: 2px solid rgba(178, 187, 204, 1);
+}
+.accordion-button:focus{
+    box-shadow: none;
+}
+.accordion-button{
+    color: rgba(109, 108, 128, 1);
+    font-weight: 500;
+    font-family: var(--heading-ff);
+    font-size: 20px;
+}
+.accordion-button:first-child{
+    border-bottom: 1px solid rgba(178, 187, 204, 1);
+}
+.accordion-body{
+    font-family: var(--normal-ff);
+    color: rgba(28, 26, 74, 1);
+    font-size: 16px;
+    font-weight: 400;
+    width: 94%;
 }
