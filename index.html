@@ -25,6 +25,12 @@
         
     </head>
 <body>
+
+    <!-- back-to-top button -->
+    <a href="javacript:void(0);" class="back-btn">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
     <!-- Header Start -->
     <header>
         <div class="top-header">
@@ -1797,6 +1803,22 @@
             $(".navbar-collapse ul li .fourths").click(function(){
                 $(".nav-link .fourth").toggleClass("rotate");
             });
+
+            // Back-btn
+            $(".back-btn").click(function(){
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 200);
+            });
+
+            $(window).scroll(function(){
+                if($(this).scrollTop() > 10){
+                    $(".back-btn").fadeIn(300);
+                }else{
+                    $(".back-btn").fadeOut(300);
+                }
+            });
+
         });
     </script>
 
