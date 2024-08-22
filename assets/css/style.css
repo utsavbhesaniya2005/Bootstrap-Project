@@ -45,6 +45,14 @@ p{
     color: var(--normal-font);
     font-weight: 400;
 }
+
+.container{
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 14px;
+    padding-right: 14px;
+}
 .my-100{
     margin-top: 100px;
     margin-bottom: 100px;
@@ -626,7 +634,7 @@ p{
 
 /* Journey */
 .journey{
-    height: 110vh;
+    height: 100%;
     background-color: rgba(40, 37, 104, 1);
     padding: 100px 0 20px 0;
 }

@@ -1,0 +1,64 @@
+@media (min-width: 1400px) {
+    
+}
+
+@media (max-width: 1399px) {
+    
+}
+
+@media (max-width: 1199px) {
+    
+    .instructor-card .instructor-img-1::after, .students-card .students-img::after{
+        height: 140px;
+    }
+}
+
+@media (max-width: 991px) {
+    
+    .faqs-img img{
+       display: none;
+    }
+    .faqs-desc, .faqs-desc .title h2{
+        text-align: center;
+        width: 100%;
+    }
+    .counter h2, .counter span{
+        font-size: 42px;
+    }
+    .first-count::after{
+        right: -20px;
+        top: 5px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .counter h2, .counter span{
+        font-size: 28px;
+    }
+    .first-count > span{
+        font-size: 12px;
+    }
+    .first-count::after{
+        right: -10px;
+        height: 70px;
+    }   
+}
+
+@media (max-width: 575px) {
+    
+    .instructor-img-1, .students-img{
+        display: none;
+    }
+    .counter h2, .counter span{
+        font-size: 16px;
+    }
+    .first-count > span{
+        font-size: 10px;
+    }
+    .first-count::after{
+        right: -12px;
+        height: 60px;
+    }   
+}
