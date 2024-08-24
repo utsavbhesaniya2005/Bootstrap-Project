@@ -376,30 +376,8 @@ p{
 /* Top Courses */
 .t-courses{
     background-image: url(../images/top-courses/top-courses-bg.png);
-    height: 100vh;
-    padding: 50px 0;
-}
-.t-courses .container{
-    position: relative;
-}
-.t-courses .container .btn-left a, .t-courses .container .btn-right a{
-    background-color: var(--main-color);
-    font-size: 22px;
-    transition: all 0.3s linear;
-}
-.btn-left{
-    top: 70%;
-    left: -3%;
-}
-.btn-right{
-    top: 70%;
-    right: -2%;
-}
-.t-courses .container .btn-left a:hover, .t-courses .container .btn-right a:hover{
-    background-color: var(--btn-bg);
-}
-.t-courses .container .btn-left a:hover i, .t-courses .container .btn-right a:hover i{
-    color: var(--heading-font) !important;
+    height: 100%;
+    padding: 100px 0;
 }
 .nav{
     position: relative;
@@ -491,28 +469,29 @@ p{
     font-family: var(--heading-ff);
     font-size: 20px;
 }
+
 /* News Letter */
 .newsletter{
-    height: 48vh;
+    height: 80%;
     background-color: var(--main-color);
-    padding: 50px 0;
+    padding-top: 50px;
     overflow: hidden;
     position: relative;
 }
 .main-img{
-    height: 330px;
+    height: 300px;
+    bottom: 0;
 }
 .shape-1{
     height: 180px;
-    left: 4%;
-    bottom: 0;
+    top: 55%;
 }
 .shape-2{
     left: 27%;
     top: 30%;
 }
 .shape-3{
-    height: 380px;
+    height: 400px;
     left: 65%;
     top: 0;
 }
