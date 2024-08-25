@@ -66,7 +66,7 @@ p{
 .btn-1{
     display: inline-block;
     background-color: var(--btn-bg);
-    padding: 10px 35px;
+    padding: 10px 20px;
     border-radius: 50px;
     color: var(--heading-font);
     font-weight: 600;
@@ -122,6 +122,9 @@ p{
 .logo a{
     display: block;
     width: 200px;
+}
+.logo a img{
+    width: 100%;
 }
 .dropdown-toggle::after{
     border: 0;
@@ -195,7 +198,7 @@ p{
 /* Banner */
 .banner{
     background-image: url(../images/banner/banner-bg.png);
-    height: 65vh;
+    height: 100%;
     padding-top: 100px;
     overflow: hidden;
 }
@@ -234,6 +237,9 @@ p{
 }
 .banner-text a span{
     margin-right: 5px;
+}
+.banner-img{
+    height: 100%;
 }
 .banner-img img{
     height: 420px;

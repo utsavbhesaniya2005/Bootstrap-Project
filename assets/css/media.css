@@ -14,6 +14,27 @@
         left: 24%;
         top: 30%;
     }
+    .about-student{
+        display: none;
+    }
+    .about-shape{
+        height: auto;
+        left: 50%;
+    }
+    .item-category .item-img a img{
+        height: 130px;
+        width: 130px;
+    }
+    .input-group{
+        display: none;
+    }
+    .btn-1{
+        padding: 5px 10px;
+    }
+    .search{
+        justify-content: flex-end;
+    }
+
 }
 
 @media (max-width: 1199px) {
@@ -41,6 +62,15 @@
     .tab-pane .card{
         width: 100% !important;
         height: auto;
+    }
+    .search{
+        display: none !important;
+    }
+    .navbar-toggler{
+        margin-left: auto;
+    }
+    .logo{
+        margin-right: auto;
     }
 
 }
@@ -75,6 +105,22 @@
     .nav::after{
         display: none;
     }
+    .swiper{
+        padding: 20px 25px;
+    }
+    .item-category .item-desc h4{
+        font-size: 14px;
+    }
+    .item-category .item-img a img{
+        height: 90px;
+        width: 90px;
+    }
+    .banner-text{
+        text-align: center;
+    }
+    .main-navigation{
+        padding: 25px 80px;
+    }
 
 }
 
@@ -99,6 +145,28 @@
     }
     .newsletter-desc form input{
         min-width: 290px;
+    }
+    .item-category .item-img{
+        height: 50px;
+        width: 50px;
+    }
+    .item-desc{
+        display: none;
+    }
+    .swiper-button-prev a, .swiper-button-next a{
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 10px;
+    }
+    .swiper-button-next{
+        right: -15px;
+    }
+    .banner-img img{
+        height: 100%;
+    }
+    .main-navigation{
+        padding: 25px 50px;
     }
 
 }
@@ -130,5 +198,52 @@
         flex-direction: column;
         column-gap: normal;
     }
+    .enroll a{
+        padding: 10px 5px;
+    }
+    .about-shape{
+        display: none;
+    }
+    .about-image::after{
+        height: 40px;
+        width: 40px;
+        line-height: 45px;
+        font-size: 14px;
+        left: 45%;
+    } 
+    .back-btn{
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+        right: 70px;
+        font-size: 14px;
+    }
+    .swiper-button-prev a, .swiper-button-next a{
+        height: fit-content;
+        width: 100%;
+    }
+    .category-slider{
+        display: none;
+    }
+    .banner-text a{
+        padding: 10px 8px;
+    }
+    .top-header{
+        padding: 10px 0;
+    }
+    .header-right{
+        justify-content: center !important;
+    }
+    .header-right > ul, .header-left, .social{
+        flex-direction: column;
+        text-align: center;
+    }
+    .header-left a{
+        font-size: 12px;
+    }
+    .main-navigation{
+        padding: 25px 5px;
+    }
+
 
 }
