@@ -72,6 +72,53 @@
     .logo{
         margin-right: auto;
     }
+    .main-navigation .row{
+        position: relative;
+    }
+    .navbar{
+        position: static;
+    }
+    .navbar-collapse{
+        position: absolute;
+        top: 150%;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-collapse ul li{
+        border: 1px solid var(--white);
+    }
+    .navbar-collapse ul li a{
+        background-color: var(--main-color);
+        color: var(--white);
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .dropdown-item{
+        width: 100%;
+        text-align: center;
+        background-color: var(--white) !important;
+        color: var(--main-color) !important;
+    }
+    .nav-link:hover, .navbar-nav .nav-link.show {
+        color: var(--white);
+    }
+    .title h1{
+        font-size: 32px;
+    }
+    .subscription .card{
+        width: 100% !important;
+    }
+    .payment-img img{
+        width: 100%;
+    }
+    .event-info a{
+        width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 }
 
@@ -121,6 +168,12 @@
     .main-navigation{
         padding: 25px 80px;
     }
+    .title h1{
+        font-size: 24px;
+    }
+    .link-page{
+        padding: 0 100px;
+    }
 
 }
 
@@ -167,6 +220,12 @@
     }
     .main-navigation{
         padding: 25px 50px;
+    }
+    .title h1{
+        font-size: 20px;
+    }
+    .link-page{
+        padding: 0 50px;
     }
 
 }
@@ -243,6 +302,32 @@
     }
     .main-navigation{
         padding: 25px 5px;
+    }
+
+    /* Event-Details Page */
+    .title h1{
+        font-size: 14px;
+    }
+    .link-page{
+        padding: 0;
+    }
+    .social-media > ul > li > a{
+        height: 25px;
+        width: 25px;
+        line-height: 25px;
+    }
+    .event-information ul{
+        flex-direction: column;
+    }
+    .event-information ul li{
+        width: 100%;
+        text-align: left;
+    } 
+    .event-information > ul > li:nth-child(2){
+        margin: 0;
+    }
+    .element-img img{
+        display: none;
     }
 
 
